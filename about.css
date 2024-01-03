@@ -1,0 +1,202 @@
+body {
+    /* height: auto;
+    width: 100%; */
+    backdrop-filter: blur(5px);
+    background-image: url('./pictures/large-5.jpg');
+    background-position: center;
+    background-size: cover;
+
+    /* background: fixed; */
+
+
+
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-1 {
+    /* background: transparent; */
+    /* backdrop-filter: (2px); */
+    /* border: transparent; */
+
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-top: 0.1px solid rgba(134, 134, 134, 0.5);
+    font-family: 'Baloo 2';
+}
+
+.card-text {
+    color: white;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: 'Baloo 2';
+    margin-top: 20px;
+    text-shadow: 5px 4px 5px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.card-title {
+    font-family: 'roboto';
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 40px;
+    color: white;
+    text-shadow: 5px 4px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+
+}
+
+.heading-1 {
+    /* font-size: 75px; */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-size: 'roboto';
+    color: white;
+    font-size: 80px;
+    text-shadow: 5px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.heading-2{
+    font-size: 'roboto';
+    color: white;
+    font-size: 40px;
+    text-shadow: 5px 4px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.card-height {
+    height: 350px;
+    overflow: hidden;
+    /* line-height: 1; */
+    outline: none;
+    border: none;
+    /* border-left: 0.01px solid rgba(64, 64, 64, 0.5); */
+    border-radius: 10px;
+
+    border-bottom: 0.01px solid rgba(159, 159, 159, 0.5);
+    border-right: 0.01px solid rgba(187, 187, 187, 0.5);
+    border-top: none;
+}
+
+@media (max-width: 500px) {
+    .card-title {
+        font-size: 30px;
+    }
+
+    .card-text {
+        /* line-height: 0.9; */
+        margin-top: 0px;
+    }
+
+    .card-height {
+        height: 450px;
+    }
+}
+
+@media (max-width: 990px) {
+    .card-title {
+        /* line-height: 0.9; */
+        margin-top: 0;
+    }
+
+    .heading-1 {
+        font-size: 50px;
+
+    }
+}
+
+.navbar {
+    font-family: 'roboto';
+}
+
+ani {
+    transition: 0.2s;
+    /* border-bottom: 5px solid #0275d8; */
+
+}
+
+
+.ani:hover {
+    background-color: #0275d8;
+    /* background: rgba(255, 255, 255, 0.5); */
+    border-radius: 6px;
+    /* padding: 5px 10px; */
+    /* color: #0275d8; */
+
+}
+
+.icon {
+    outline: none;
+}
+
+.fa-fish {
+    color: #0275d8;
+    background-color: white;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.footer-color {
+
+
+    /* background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px); */
+
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-top: 0.1px solid rgba(64, 64, 64, 0.5);
+
+
+}
+
+.media-icons {
+    text-decoration: none;
+    /* height: 50px; */
+    /* padding: ; */
+}
+
+.fab {
+    color: white;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.fab:hover {
+    color: white;
+    background-color: #0275d8;
+    /* padding: px; */
+}
+
+footer {
+    margin-top: 50px;
+}
+
+/* #one{ */
+    /* margin-left:400px ; */
+    /* margin-top: px ; */
+/* } */
+
+#two {
+    /* margin-right:300px; */
+    margin-top: 50px;
+}
+
+#three {
+    /* margin-left:400px ; */
+    margin-top: 50px;
+
+}
+.link-style{
+    text-decoration: none;
+    color: white;
+}

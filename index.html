@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaScape</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+    <!-- Style tag -->
+    <link rel="stylesheet" href="template-one.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Lobster&family=Poppins:wght@600&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" type="image/png" href="./pictures/fish 1.png" />
+
+
+</head>
+
+<body>
+    <!-- nav bar START -->
+
+    <nav class=" navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light fw-bold mx-2" href="index.html">
+                <i class='fas fa-fish' style='font-size:36px'></i>
+            </a>
+            <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-4">
+                    <li class="nav-item ani mx-1">
+                        <a class="nav-link active text-light fw-bold px- mx-1 text-center" aria-current="page"
+                            href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item ani mx-2">
+                        <a class="nav-link text-light fw-bold  mx-1 text-center" href="./product.html">Products</a>
+                    </li>
+                    <li class="nav-item ani mx-2">
+                        <a class="nav-link text-light fw-bold mx-1 text-center" href="./service.html">Services</a>
+                    </li>
+                    <li class="nav-item ani mx-2">
+                        <a class="nav-link text-light fw-bold mx-1 text-center" href="./about.html">About Us</a>
+                    </li>
+                    <li class="nav-item ani mx-2">
+                        <a class="nav-link text-light fw-bold mx-1 text-center" href="./contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item ani mx-2">
+                        <a class="nav-link text-light fw-bold mx-1 text-center" href="./Sign.html">Sign Up</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                        name="search">
+                    <button class="btn btn-primary fw-bold" type="submit">Search</button>
+
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Nav bar END -->
+
+    <!-- hero START  -->
+
+    <div class="container hero" style="font-family: roboto;">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-6 ">
+                <div class="hero text-light d-flex justify-content-center ">
+                    <h1 class="hero-heading-main my-1">LOOKING FOR NEW AQUARIUM?</h1>
+                    <h5 class="hero-heading-secondry my-1">We have veriety of things that you might looking for.</h5>
+                    <div>
+                        <a href="#" class="btn btn-primary hero-btn text-light my-3 fw-bold">Get Now</a>
+                        <!-- Modal -->
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-warning premium hero-btn" data-bs-toggle="modal"
+                            data-bs-target="#premiumModal">
+                            Premium <i class="fa fa-diamond"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!-- <div class="col-1"></div> -->
+            <div class="col-4 d-flex justify-content-center hero">
+                <img src="./pictures/fish-2.png" alt="#" class="card-img-top hero-img">
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+
+    <!-- hero END  -->
+
+    <!-- Modal START -->
+
+    <div class="modal fade" id="premiumModal" tabindex="-1" aria-labelledby="premiumModalLabel" aria-hidden="true">
+        <div class="modal-dialog main-modal">
+            <div class="modal-content">
+                <div class="modal-header " style="
+                background: rgba(33, 33, 33, 0.9);
+                color: white;
+                font-family: 'roboto';">
+                    <h3 class="modal-title" id="premiumModalLabel">
+                        Be a Premium Member
+                    </h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style=" background-image: linear-gradient(45deg, rgb(33, 33, 33), rgb(44, 44, 44), rgb(55, 55, 55), rgb(66, 66, 66));
+                    color: white;">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col">
+                                <h4 class="text-center">PACKAGE-1</h4>
+                                <ul class="">
+                                    <li>Free tickets</li>
+                                    <li>Product Discount </li>
+                                    <li>Servies Discount</li>
+                                    <li>Aquariums Trips</li>
+                                    <li>Opening invitation</li>
+                                </ul>
+                                <div class="container text-center">
+                                    <button class="btn btn-warning"><i class="fa fa-diamond mx-1"></i>Buy Now</button>
+                                </div>
+                                <div class="container text-center mt-1">
+                                    <p><Strike class="text-secondary">$49</Strike> $29/ Monthly</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <h4 class="text-center">PACKAGE-2</h4>
+                                <ul class="">
+                                    <li>Free tickets</li>
+                                    <li>Product Discount </li>
+                                    <li>Servies Discount</li>
+                                    <li>Aquariums Trips</li>
+                                    <li>Become partner</li>
+                                </ul>
+                                <div class="container text-center">
+                                    <button class="btn btn-warning"> <i class="fa fa-diamond mx-1"></i>Buy Now</button>
+                                </div>
+                                <div class="container text-center mt-1">
+                                    <p><Strike class="text-secondary">$99</Strike> $59/ Monthly</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <a href="Sign.html"><button type="button" class="btn btn-primary">SignUp</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal  -->
+    </div>
+
+    <!-- Modal END  -->
+
+    <!-- Owl-Carousel START -->
+
+    <div class="container-fluid text-center text-light Gallery">
+        <div class="container">
+            <h2 class="card-text slider-heading px-5">Gallery</h2>
+        </div>
+    </div>
+
+
+    <div class="container owl-slider">
+        <div class="owl-carousel owl-theme">
+
+            <div class="item text-center text-light fw-bold ">
+                <img class="item" src="./pictures/same H 1.jpg" alt="#">
+                <h5 class="mt-1">2022/Nov/7</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                    <p class="mb-1">SEA LIFE Aquarium</p>
+                    <i class="fa fa-map-marker mb-1 mx-1" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="item text-center text-light fw-bold ">
+                <img class="item" src="./pictures/same H 2.jpg" alt="#">
+                <h5 class="mt-1">2023/Jan/23</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                    <p class="mb-1">Berlin Aquarium</p>
+                    <i class="fa fa-map-marker mb-1 mx-1" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="item text-center text-light fw-bold ">
+                <img class="item" src="./pictures/same H 3.jpg" alt="#">
+                <h5 class="mt-1">2023/Jan/12</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                    <p class="mb-1">The Deep in Hull</p>
+                    <i class="fa fa-map-marker mb-1 mx-1" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="item text-center text-light fw-bold ">
+                <img class="item" src="./pictures/same H 4.jpg" alt="#">
+                <h5 class="mt-1">2023/Feb/1</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                    <p class="mb-1">L'Oceanogràfic</p>
+                    <i class="fa fa-map-marker mb-1 mx-1" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="item text-center text-light fw-bold ">
+                <img class="item" src="./pictures/same H 5.jpg" alt="#">
+                <h5 class="mt-1">2022/Aug/28</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                    <p class="mb-1">AquaScape</p>
+                    <i class="fa fa-map-marker mb-1 mx-1" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="item text-center text-light fw-bold ">
+                <img class="item" src="./pictures/same H 6.jpg" alt="#">
+                <h5 class="mt-1">2023/Jan/4</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                    <p class="mb-1">Gulshan Aquarium</p>
+                    <i class="fa fa-map-marker mb-1 mx-1" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="item text-center text-light fw-bold ">
+                <img class="item" src="./pictures/same H 7.jpg" alt="#">
+                <h5 class="mt-1">2021/March/20</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                    <p class="mb-1">L'Oceanogràfic</p>
+                    <i class="fa fa-map-marker mb-1 mx-1" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="item text-center text-light fw-bold ">
+                <img class="item" src="./pictures/same H 8.jpg" alt="#">
+                <h5 class="mt-1">2022/Dec/27</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                    <p class="mb-1">AquaScape</p>
+                    <i class="fa fa-map-marker mb-1 mx-1" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="item text-center text-light fw-bold ">
+                <img class="item" src="./pictures/same H 9.jpg" alt="#">
+                <h5 class="mt-1">2022/May/16</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                    <p class="mb-1">Berlin Aquarium</p>
+                    <i class="fa fa-map-marker mb-1 mx-1" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="item text-center text-light fw-bold ">
+                <img class="item" src="./pictures/same H 10.jpg" alt="#">
+                <h5 class="mt-1">2023/Jan/14</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                    <p class="mb-1">SEA LIFE Aquarium</p>
+                    <i class="fa fa-map-marker mb-1 mx-1" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="item text-center text-light fw-bold ">
+                <img class="item" src="./pictures/same H 11.jpg" alt="#">
+                <h5 class="mt-1">2023/March/2</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                    <p class="mb-1">Berlin Aquarium</p>
+                    <i class="fa fa-map-marker mb-1 mx-1" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="item text-center text-light fw-bold ">
+                <img class="item" src="./pictures/same H 12.jpg" alt="#">
+                <h5 class="mt-1">2022/Feb/14</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                    <p class="mb-1">Copenhagen Aquarium</p>
+                    <i class="fa fa-map-marker mb-1 mx-1" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="item text-center text-light fw-bold ">
+                <img class="item" src="./pictures/same H 13.jpg" alt="#">
+                <h5 class="mt-1">2022/Sep/9</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                    <p class="mb-1">Berlin Aquarium</p>
+                    <i class="fa fa-map-marker mb-1 mx-1" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="item text-center text-light fw-bold ">
+                <img class="item" src="./pictures/same H 14.jpg" alt="#">
+                <h5 class="mt-1">2022/Nov/11</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                    <p class="mb-1">Copenhagen Aquarium</p>
+                    <i class="fa fa-map-marker mb-1 mx-1" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="item text-center text-light fw-bold ">
+                <img class="item" src="./pictures/same H 15.jpg" alt="#">
+                <h5 class="mt-1">2022/June/18</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                    <p class="mb-1"> Marine Aquarium</p>
+                    <i class="fa fa-map-marker mb-1 mx-1" aria-hidden="true"></i>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- Owl-Carousel END -->
+
+    <!-- Slide-1 START -->
+
+    <div class="container-fluid text-center text-light first-slide">
+        <div class="container">
+            <h2 class="card-text">What we provide?</h2>
+            <p class="hero-heading-secondry">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate maxime
+                cumque quidem blanditiis,
+                ipsamsequi officiis sunt magnam sapiente ducimus distinctio nemo, placeat praesentium
+                doloremque?Perspiciatis fuga iusto sed harum.
+            </p>
+            <button type="button" class="btn btn-primary hero-btn fw-bold">Read More</button>
+        </div>
+    </div>
+
+    <!-- Slide-1 END -->
+
+    <!-- cards START -->
+
+    <div class="container my-5 mx--2 text-center">
+        <div class="row g-5">
+            <div class="col-12 col-md-6 col-xl-3 ">
+                <div class="card card-1">
+                    <img src="./pictures/fish tank.jpg" alt="#" class="card-img-top">
+                    <h2 class="card-text pt-3">Fish Tank</h2>
+                    <p class="card-text">Discover the perfect tank for your finned friends.
+                    </p>
+                    <a class="btn btn-primary card-btn" href="product.html">See now</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 ">
+                <div class="card card-1">
+                    <img src="./pictures/washing-cleaning-fish-tank.jpg" alt="#" class="card-img-top">
+                    <h2 class="card-text pt-3">Tank Cleaning</h2>
+                    <p class="card-text">Keep your aquarium clean and healthy with our expert services.
+                    </p>
+                    <a class="btn btn-primary card-btn" href="service.html">See now</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 ">
+                <div class="card card-1">
+                    <img src="./pictures/fish food.JPG" alt="#" class="card-img-top">
+                    <h2 class="card-text pt-3">Fish Food</h2>
+                    <p class="card-text">Satisfy your fish's hunger with our premium selection of food.
+                    </p>
+                    <a class="btn btn-primary card-btn" href="product.html">See now</a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-3 ">
+                <div class="card card-1">
+                    <img src="./pictures/tank decoration.JPG" alt="#" class="card-img-top">
+                    <h2 class="card-text pt-3">Decorations</h2>
+                    <p class="card-text">Elevate your tank's beauty with our stunning decor options.
+                    </p>
+                    <a class="btn btn-primary card-btn" href="product.html">See now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- card END -->
+
+    <!-- Wave START -->>
+
+
+    <div class="wave" id="wave-1">
+        <img src="./pictures/wave.png" alt="wave" style="width: 100%;">
+    </div>
+    <div class="container-fluid text-center text-light wave-container ">
+        <div class="container">
+            <h2 class="card-text" style="font-family:'roboto';">Visit Our Aquaruims</h2>
+            <p class="hero-heading-secondry">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate maxime
+                cumque quidem blanditiis,
+                ipsamsequi officiis sunt magnam sapiente ducimus distinctio nemo, placeat praesentium
+                doloremque?Perspiciatis fuga iusto sed harum.
+            </p>
+            <button type="button" class="btn  hero-btn fw-bold wave-btn mt-2">Read More</button>
+            <a href="Sign.html"><button type="button" class="btn  hero-btn fw-bold wave-btn mt-2">Buy
+                    Tickets</button></a>
+
+        </div>
+    </div>
+    <div class="wave " id="wave-2">
+        <img src="./pictures/wave 3.png" alt="wave" style="width: 100%;">
+    </div>
+
+    <!-- wave END  -->
+
+    <!-- Large-Slider START  -->
+
+    <div class="container-fluid text-center text-light mb-3 ">
+        <div class="container">
+            <h2 class="card-text slider-heading px-4">Highlights</h2>
+        </div>
+    </div>
+
+
+    <div class="container mb-5">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./pictures/aquarium-2.jpg" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption d-none d-md-block mb-4 large-slider">
+                        <!-- <h2 class="large-slider-heading">Highlights</h2> -->
+                        <h4>Some of our recent work. it involves the latest technology and advance materials not
+                            only
+                            to
+                            save save fishes and sea creature but also to make them feel home.</h4>
+                        <div class="container-fluid text-center text-light mt-3">
+                            <div class="container">
+                                <button type="button" class="btn btn-primary hero-btn fw-bold">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./pictures/aquarium-1.jpg" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption d-none d-md-block mb-5 large-slider">
+                        <!-- <h2 class="large-slider-heading">Highlights</h2> -->
+                        <h4>Some of our recent work. it involves the latest technology and advance materials not
+                            only
+                            to save save fishes and sea creature but also to make them feel home.</h4>
+                        <div class="container-fluid text-center text-light mt-3">
+                            <div class="container">
+                                <button type="button" class="btn btn-primary hero-btn fw-bold">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./pictures/aquarium-3.jpg" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption d-none d-md-block mb-4 large-slider">
+                        <!-- <h2 class="large-slider-heading">Highlights</h2> -->
+                        <h4>Some of our recent work. it involves the latest technology and advance materials not
+                            only
+                            to
+                            save save fishes and sea creature but also to make them feel home.</h4>
+                        <div class="container-fluid text-center text-light mt-3">
+                            <div class="container">
+                                <button type="button" class="btn btn-primary hero-btn fw-bold">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+    </div>
+
+    <!-- Large-Slider END  -->
+
+    <!-- Footer START -->
+
+    <footer class="text-center text-lg-start text-light footer-color ">
+        <section class="d-flex justify-content-center justify-content-lg-between p-2 border-bottom">
+
+            <div class="me-5 d-none d-lg-block mt-1">
+                <span class="fw-bold">Get connected with us on social networks:</span>
+            </div>
+
+            <div class="media-icons">
+                <a href="" class="me-4 link-secondary">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </section>
+
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-fish text-primary me-3"></i>AquaScape
+                        </h6>
+                        <p>
+                            From premium fish food to professional cleaning and decoration services, <span
+                                class="fw-bold" style="color:#0275d8 ;">AquaScape</span>
+                            is your one-stop shop for aquarium products and expertise. Our experienced team has worked
+                            on major projects and is dedicated to helping you create the perfect aquatic environment.
+
+                        </p>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <u>Products</u>
+                        </h6>
+                        <p>
+                            <a href="product.html" class="text-reset text-decoration-none">Decorational</a>
+                        </p>
+                        <p>
+                            <a href="product.html" class="text-reset text-decoration-none">Fish Tanks</a>
+                        </p>
+                        <p>
+                            <a href="product.html" class="text-reset text-decoration-none">Fish Food</a>
+                        </p>
+                        <p>
+                            <a href="product.html" class="text-reset text-decoration-none">Water Pumps</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <u> links </u>
+                        </h6>
+                        <p>
+                            <a href="product.html" class="text-reset text-decoration-none">Product</a>
+                        </p>
+                        <p>
+                            <a href="service.html" class="text-reset text-decoration-none">Services</a>
+                        </p>
+                        <p>
+                            <a href="Sign.html" class="text-reset text-decoration-none">Orders</a>
+                        </p>
+                        <p>
+                            <a href="Sign.html" class="text-reset text-decoration-none">Help</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3 text-secondary text-light"></i>New York, NY 10012, US</p>
+                        <p><i class="fas fa-envelope me-3 text-secondary text-light"></i>Aquascape456@gmail.com</p>
+                        <p><i class="fas fa-phone me-3 text-secondary text-light"></i>+ 01 234 567 88</p>
+                        <!-- <p><i class="fas fa-print me-3 text-secondary text-light"></i>+ 01 234 567 89</p>   -->
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <div class="text-center p-1 fw-bold footer-copyright" style="background-color: #0275d8;">
+            © 2023 Copyright:
+            <a class="text-reset fw-bold" href="index.html">AquaScape.com</a>
+        </div>
+    </footer>
+
+    <!-- Footer END -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                items: 4,
+                loop: true,
+                margin: 5,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    300: {
+                        items: 2
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

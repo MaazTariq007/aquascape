@@ -1,0 +1,91 @@
+body {
+    background-image: url(./pictures/fish.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(3px);
+
+
+
+}
+
+label {
+    color: white;
+    font-size: 25px;
+    font-family: 'roboto';
+}
+
+.main {
+    background: transparent;
+    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-left: 0.01px solid rgba(64, 64, 64, 0.5);
+    border-bottom: 0.01px solid rgba(159, 159, 159, 0.5);
+    border-right: 0.01px solid rgba(187, 187, 187, 0.5);
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.5);
+    border-top: none;
+    border-radius: 25px;
+    padding: 30px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    font-family: 'roboto';
+}
+
+/* navbar  */
+.navbar {
+    font-family: 'roboto';
+}
+
+.fa-fish {
+    color: #0275d8;
+    background-color: white;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.ani {
+    transition: 0.2s;
+    /* border-bottom: 5px solid #0275d8; */
+
+}
+
+.ani:hover {
+    background-color: #0275d8;
+    /* background: rgba(255, 255, 255, 0.5); */
+    border-radius: 6px;
+    /* padding: 5px 10px; */
+    /* color: #0275d8; */
+
+}
+
+/* footer  */
+
+.footer-color {
+    /* background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px); */
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-top: 0.1px solid rgba(64, 64, 64, 0.5);
+}
+
+.media-icons {
+    text-decoration: none;
+    /* height: 50px; */
+    /* padding: ; */
+}
+
+.fab {
+    color: white;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.fab:hover {
+    color: white;
+    background-color: #0275d8;
+    /* padding: px; */
+}
